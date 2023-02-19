@@ -21,7 +21,7 @@ let theButtons = document.querySelectorAll("#buttonHolder img"),
 function changeBGImage() {
 
 
-    //Second bug solved, pecies reparent back to the drag zone when clicking on a new puzzle.
+    //Second bug solved, pecies reparent back to the drag zone when clicking on the same or a new puzzle.
     dropZones.forEach(zone => {
         while (zone.firstChild) {
             zone.removeChild(zone.firstChild);
