@@ -65,10 +65,10 @@ function handleDrop(e) {
 
 
 //     First bug solved, e one piece in one drop zone at a time and not pasting on top of each other.
-    if (this.children.length > 0) {
-		return;
-	}
-    this.appendChild(draggedPiece);}
+if (this.children.length > 0) {
+    return;
+}
+this.appendChild(draggedPiece);}
 
 
 
